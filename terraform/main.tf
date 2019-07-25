@@ -105,3 +105,11 @@ module "api_custom_domains" {
 }
 */
 
+# Uncomment if you want to use budget
+/*
+module "budget" {
+  source                    = "modules/budget"
+  subscriber_email_address  = "cloud-monitoring@acme.com"
+  limit_amount              = "10.0"
+}
+*/
